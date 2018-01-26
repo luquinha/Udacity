@@ -1,0 +1,28 @@
+.interessante {
+	font-style: italic;
+	padding: 1em;
+}
+
+.label {
+	font-weight: bold;
+}
+
+.lista {
+	list-style: none;
+}
+
+.main .borda-texto {
+	border-style: solid;
+}
+
+.main {
+	margin-right: 600px;
+}
+
+h3 {
+	padding: 1em;
+}
+
+.img {
+	padding: 1em;
+}
