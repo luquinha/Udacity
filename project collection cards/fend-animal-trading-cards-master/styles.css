@@ -1,6 +1,14 @@
+.borda {
+	border-style: solid;
+    border-width: 1px;
+    border-color: #cecece;
+
+    margin-left: 10px;
+	margin-right: 10px;
+}
+
 .interessante {
 	font-style: italic;
-	padding: 1em;
 }
 
 .label {
@@ -11,18 +19,34 @@
 	list-style: none;
 }
 
-.main .borda-texto {
-	border-style: solid;
-}
-
 .main {
-	margin-right: 600px;
+	width: 315px;
+
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 10px;
+
+	box-shadow: 5px 5px #DCDCDC;
 }
 
 h3 {
-	padding: 1em;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .img {
-	padding: 1em;
+	margin-left: 10px;
+	height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+ul {
+	padding: 0px;
+}
+
+.conteudo {
+    width: 290px;
+    padding: 5px;
 }
