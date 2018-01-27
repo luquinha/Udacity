@@ -1,51 +1,33 @@
 .borda {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #cecece;
-
-	margin-left: 10px;
-	margin-right: 10px;
+	border: 1px solid #cecece;
+	margin: 0 10px;
 }
-
 .interessante {
 	font-style: italic;
 }
-
 .label {
 	font-weight: bold;
 }
-
 .lista {
 	list-style: none;
 }
-
 .main {
 	width: 315px;
-
-	padding-top: 5px;
-	padding-bottom: 10px;
-	padding-left: 5px;
-	padding-right: 10px;
-
-	box-shadow: 5px 5px #DCDCDC;
+	padding: 5px 10px;
+	box-shadow: 5px 5px #dcdcdc;
 }
-
-h3 {
-	margin-left: 10px;
-	margin-right: 10px;
+h1 {
+	margin: 0 10px;
 }
-
 .img {
 	margin-left: 10px;
 	height: 200px;
 	width: 300px;
 	padding-bottom: 10px;
 }
-
 ul {
-	padding: 0px;
+	padding: 0;
 }
-
 .conteudo {
     width: 290px;
     padding: 5px;
