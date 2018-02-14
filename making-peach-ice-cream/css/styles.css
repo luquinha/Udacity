@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-content {
 	width: 100%;
 	overflow: hidden;
+	padding: 1em;
 }
 
 .section-title {
@@ -49,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Recipe */
 .recipe {
-	padding: 0.75rem;
+	padding: 1rem;
 	line-height: 25px;
 	width: 800px;
 	margin: 0 auto;
@@ -67,7 +68,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .recipe-author {
-	margin-top: 1.7em
+	margin-top: 1em;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .recipe-notes {
@@ -79,6 +82,8 @@ h1, h2, h3, h4, h5, h6 {
 .recipe-note {
 	font-size: 0.8rem;
 	margin: 1rem 0.3rem 1rem;
+	display: inline-block;
+    padding: 1em;
 }
 
 .recipe-image {
