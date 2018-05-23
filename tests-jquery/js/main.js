@@ -1,10 +1,8 @@
-let numMax;
-$( 'p' ).each(function( index ) {
-    numMax = 0;
-    let test = $( this ).text().split();
-    test.forEach(function (unity) {
-        numMax += unity.length;
-    });
-    $(this).children().text("Esta paragrafo contem: " + numMax + " caracteres");
-    console.log('Resultado: ' + numMax);
-});
+function addNumber() {
+    let text, number;
+    text = $(this).text();
+    number = text.length;
+    $(this).text(text + " " + number);
+}
+
+$('p').each(addNumber);
